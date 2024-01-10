@@ -17,7 +17,7 @@ export default async function IndexPage() {
       <section className="space-y-6 pb-12 pt-16 lg:py-28">
         <div className="container flex max-w-[64rem] flex-col items-center gap-5 text-center">
           <Link
-            href="https://twitter.com/codehagen"
+            href="https://twitter.com/sternelee"
             className={cn(
               buttonVariants({ variant: "outline", size: "sm" }),
               "animate-fade-up opacity-0",
@@ -35,7 +35,7 @@ export default async function IndexPage() {
             <Balancer>
               Budget Better, Gain More Experience{" "}
               <span className="relative bg-gradient-to-r from-indigo-500 to-purple-500/80 bg-clip-text font-extrabold text-transparent">
-                Projectx
+                pilechat
               </span>
             </Balancer>
           </h1>
@@ -56,7 +56,7 @@ export default async function IndexPage() {
           >
             <GetStartedButton />
             <Link
-              href="https://Projectx.com"
+              href="https://pilechat.com"
               target="_blank"
               rel="noreferrer"
               className={cn(
@@ -67,7 +67,7 @@ export default async function IndexPage() {
               <Icons.chevrondown className="mr-2 h-4 w-4" />
               <p>
                 <span className="hidden sm:inline-block">Lets explore</span>{" "}
-                Projectx{" "}
+                pilechat{" "}
               </p>
             </Link>
           </div>

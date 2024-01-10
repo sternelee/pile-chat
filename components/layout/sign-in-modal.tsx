@@ -25,7 +25,7 @@ export const SignInModal = () => {
             Unlock AI-Powered Money Management. Sign in seamlessly with your
             Google account with one simple click to access tailored financial
             insights, customized budget tracking and spending analysis from
-            ProjectX.
+            pilechat.
           </p>
         </div>
 
@@ -50,7 +50,7 @@ export const SignInModal = () => {
             ) : (
               <Icons.gitHub className="mr-2 h-4 w-4" />
             )}{" "}
-            Sign In with Google
+            Sign In with GitHub
           </Button>
           <Button
             variant="default"

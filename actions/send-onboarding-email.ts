@@ -9,9 +9,9 @@ import { resend } from "@/lib/email";
 async function sendOnboardingEmail(email: string, name: string) {
   try {
     const emailResult = await resend.emails.send({
-      from: "Projectx <onboarding@Resend.com>",
+      from: "Pile Chat <sternelee@Resend.com>",
       to: email,
-      subject: "Unlock the Future of Real Estate with Projectx!",
+      subject: "Unlock the Future of Real Estate with PileChat!",
       react: WelcomeEmail({
         name: name || "Valued User",
         email: email,

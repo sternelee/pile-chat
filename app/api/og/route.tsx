@@ -54,7 +54,7 @@ export async function GET(req: Request) {
               color: "transparent",
             }}
           >
-            Projectx
+            pilechat
           </div>
 
           <div tw="flex flex-col flex-1 py-16">
@@ -86,7 +86,7 @@ export async function GET(req: Request) {
             >
               <div tw="flex flex-col" style={{ marginLeft: "15px" }}>
                 <div tw="text-[22px]" style={{ fontFamily: "Cal Sans" }}>
-                  Projectx
+                  pilechat
                 </div>
                 <div>List Smarter, Sell Faster</div>
               </div>

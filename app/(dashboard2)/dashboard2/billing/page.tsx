@@ -11,9 +11,9 @@ import { DashboardShell } from "@/components/dashboard/shell";
 import { Icons } from "@/components/shared/icons";
 
 export const metadata = {
-  title: "Projectx Billing - Subscription Management",
+  title: "pilechat Billing - Subscription Management",
   description:
-    "Access and manage your billing information, view subscription plans, and update payment methods on Projectx's Billing page.",
+    "Access and manage your billing information, view subscription plans, and update payment methods on pilechat's Billing page.",
 };
 
 export default async function BillingPage() {
@@ -36,7 +36,7 @@ export default async function BillingPage() {
           <Icons.warning />
           <AlertTitle>This is a demo app.</AlertTitle>
           <AlertDescription>
-            Projectx app is a demo app using a Stripe test environment. You can
+            pilechat app is a demo app using a Stripe test environment. You can
             find a list of test card numbers on the{" "}
             <a
               href="https://stripe.com/docs/testing#cards"

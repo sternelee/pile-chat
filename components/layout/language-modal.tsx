@@ -50,7 +50,7 @@ export const LanguageModal = () => {
           {/* Modal header content */}
           <h3 className="font-urban text-2xl font-bold">Select Language</h3>
           <p className="text-sm text-gray-500">
-            Choose your preferred language for Projectx. (You can always edit
+            Choose your preferred language for pilechat. (You can always edit
             this in settings)
           </p>
         </div>

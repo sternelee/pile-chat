@@ -17,7 +17,7 @@ const features = [
     icon: CloudArrowUpIcon,
   },
   {
-    name: "Secure Your Finances with Projectx",
+    name: "Secure Your Finances with pilechat",
     description:
       "Protect your financial data with top-tier encryption, ensuring your sensitive information is safe from unauthorized access.",
     icon: LockClosedIcon,
@@ -37,11 +37,11 @@ const features = [
   {
     name: "Seamless Integration Financial Ecosystem",
     description:
-      "Easily connect Projectx with your existing financial tools for a unified and efficient financial management experience.",
+      "Easily connect pilechat with your existing financial tools for a unified and efficient financial management experience.",
     icon: Cog6ToothIcon,
   },
   {
-    name: "Reliable Financial Data Management with Projectx",
+    name: "Reliable Financial Data Management with pilechat",
     description:
       "Access your financial data anytime, anywhere, with our secure cloud backup and recovery solutions.",
     icon: ServerIcon,
@@ -55,7 +55,7 @@ export default function Featuressection() {
         <div className="mx-auto max-w-2xl sm:text-center">
           <h2 className="text-base font-semibold leading-7 text-indigo-600">
             <span className="relative bg-gradient-to-r from-indigo-500 to-purple-500/80 bg-clip-text font-extrabold text-transparent">
-              Projectx
+              pilechat
             </span>
           </h2>
 
@@ -71,7 +71,7 @@ export default function Featuressection() {
             style={{ animationDelay: "0.35s", animationFillMode: "forwards" }}
           >
             <Balancer>
-              Projectx reimagines financial tracking and optimization with
+              pilechat reimagines financial tracking and optimization with
               leading-edge AI, offering a new era of precision and ease in
               personal finance.
             </Balancer>

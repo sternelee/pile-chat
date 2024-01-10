@@ -22,13 +22,13 @@ export const metadata = {
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
-  keywords: ["Projectx keywords"],
+  keywords: ["pilechat keywords"],
   authors: [
     {
       name: "christer",
     },
   ],
-  creator: "codehagen",
+  creator: "sternelee",
   metadataBase: new URL(siteConfig.url),
   openGraph: {
     type: "website",
@@ -43,7 +43,7 @@ export const metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     images: [siteConfig.ogImage],
-    creator: "@codehagen",
+    creator: "@sternelee",
   },
   icons: {
     icon: "/favicon.ico",

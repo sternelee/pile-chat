@@ -4,9 +4,9 @@ import { compareDesc } from "date-fns";
 import { BlogPosts } from "@/components/blog-posts";
 
 export const metadata = {
-  title: "Projectx Blog - Revolutionizing Real Estate with AI",
+  title: "pilechat Blog - Revolutionizing Real Estate with AI",
   description:
-    "Explore the latest insights on AI in real estate, innovative property listing strategies, and industry trends in the Projectx blog.",
+    "Explore the latest insights on AI in real estate, innovative property listing strategies, and industry trends in the pilechat blog.",
 };
 
 export default async function BlogPage() {

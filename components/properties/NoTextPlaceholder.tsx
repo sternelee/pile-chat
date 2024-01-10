@@ -9,7 +9,7 @@ export default function NoTextPlaceholder({ propertyId, setDescriptionData }) {
       <EmptyPlaceholder.Icon name="brain" />
       <EmptyPlaceholder.Title>Generate description</EmptyPlaceholder.Title>
       <EmptyPlaceholder.Description>
-        Let Projectx make the summary and text for you.
+        Let pilechat make the summary and text for you.
       </EmptyPlaceholder.Description>
     </EmptyPlaceholder>
   );

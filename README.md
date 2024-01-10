@@ -1,17 +1,17 @@
-<a href="https://projectx-eight-gilt.vercel.app/">
-  <h1 align="center">ProjectX (Placeholder Name)</h1>
+<a href="https://pilechat-eight-gilt.vercel.app/">
+  <h1 align="center">pilechat (Placeholder Name)</h1>
 </a>
 
 <p align="center">
-  Start at full speed with Projectx !
+  Start at full speed with pilechat !
 </p>
 
 <p align="center">
   <a href="https://twitter.com/placeholder">
-    <img src="https://img.shields.io/twitter/follow/Projectx?style=flat&label=%40projectxy&logo=twitter&color=0bf&logoColor=fff" alt="Twitter" />
+    <img src="https://img.shields.io/twitter/follow/pilechat?style=flat&label=%40pilechaty&logo=twitter&color=0bf&logoColor=fff" alt="Twitter" />
   </a>
-  <a href="https://github.com/meglerhagen/projectx/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/meglerhagen/projectx?label=license&logo=github&color=f80&logoColor=fff" alt="License" />
+  <a href="https://github.com/meglerhagen/pilechat/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/meglerhagen/pilechat?label=license&logo=github&color=f80&logoColor=fff" alt="License" />
   </a>
 </p>
 
@@ -28,14 +28,14 @@
 
 Lets goooo - Next.js 14, Prisma, Planetscale, Auth.js, Resend, React Email, Shadcn/ui, and Stripe.
 <br/>
-All seamlessly integrated with the Projectx to accelerate the development.
+All seamlessly integrated with the pilechat to accelerate the development.
 
 ## Installation
 
 Clone & create this repo locally with the following command:
 
 ```bash
-git clone https://github.com/meglerhagen/projectx.git
+git clone https://github.com/meglerhagen/pilechat.git
 ```
 
 1. Install dependencies using pnpm:
@@ -117,11 +117,11 @@ The default setting for `TEST_EMAIL_ADDRESS` is `delivered@resend.dev` but you h
 
 We love our contributors! Here's how you can contribute:
 
-- [Open an issue](https://github.com/meglerhagen/projectx/issues) if you believe you've encountered a bug.
-- Make a [pull request](https://github.com/meglerhagen/projectx/pull) to add new features/make quality-of-life improvements/fix bugs.
+- [Open an issue](https://github.com/meglerhagen/pilechat/issues) if you believe you've encountered a bug.
+- Make a [pull request](https://github.com/meglerhagen/pilechat/pull) to add new features/make quality-of-life improvements/fix bugs.
 
-<a href="https://github.com/meglerhagen/projectx/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=meglerhagen/projectx" />
+<a href="https://github.com/meglerhagen/pilechat/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=meglerhagen/pilechat" />
 </a>
 
 ## Repo Activity

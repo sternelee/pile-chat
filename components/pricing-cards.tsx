@@ -142,9 +142,9 @@ export function PricingCards({ userId, subscriptionPlan }: PricingCardsProps) {
           Email{" "}
           <a
             className="font-medium text-primary hover:underline"
-            href="mailto:support@Projectx.com"
+            href="mailto:support@pilechat.com"
           >
-            support@Projectx.com
+            support@pilechat.com
           </a>{" "}
           for to contact our support team.
           <br />

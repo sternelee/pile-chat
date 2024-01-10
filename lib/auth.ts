@@ -48,7 +48,7 @@ export const authOptions: NextAuthOptions = {
 
         try {
           const result = await resend.emails.send({
-            from: "Projectx App <onboarding@resend.dev>",
+            from: "Pile Chat App <sternelee@resend.dev>",
             to:
               process.env.NODE_ENV === "development"
                 ? (process.env.TEST_EMAIL_ADDRESS as string)
