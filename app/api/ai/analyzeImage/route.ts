@@ -19,7 +19,7 @@ export async function POST(request: NextRequest) {
     const requestBody = await request.json();
     const imageUrl = requestBody.imageUrl;
     const language = requestBody.language;
-    
+
 
     const requestTexts = {
         english: "I want you to act as a real estate agent. I would like you to create text based on the image you receive, writing a detailed and appealing property description. The style should be professional, and the description should be about one line long. I want 3 different lines so I can choose. Include unique features and highlight what makes this property special.",

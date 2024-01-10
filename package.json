@@ -1,11 +1,11 @@
 {
-  "name": "projectx",
+  "name": "pile-chat",
   "version": "0.1.0",
   "license": "AGPL-3.0",
   "private": true,
   "author": {
-    "name": "Christer",
-    "url": "https://twitter.com/Codehagen"
+    "name": "sternelee",
+    "url": "https://twitter.com/sternelee"
   },
   "scripts": {
     "dev": "next dev",
@@ -13,7 +13,6 @@
     "turbo": "next dev --turbo",
     "start": "next start",
     "lint": "next lint",
-    "format:check": "prettier . --check",
     "preview": "next build && next start",
     "postinstall": "prisma generate",
     "email": "email dev --dir emails --port 3333",
