@@ -35,6 +35,28 @@ export const SignInModal = () => {
             disabled={signInClicked}
             onClick={() => {
               setSignInClicked(true);
+              signIn("github", {
+                redirect: false,
+                callbackUrl: "/dashboard",
+              }).then(() =>
+                setTimeout(() => {
+                  signInModal.onClose();
+                }, 1000),
+              );
+            }}
+          >
+            {signInClicked ? (
+              <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />
+            ) : (
+              <Icons.gitHub className="mr-2 h-4 w-4" />
+            )}{" "}
+            Sign In with Google
+          </Button>
+          <Button
+            variant="default"
+            disabled={signInClicked}
+            onClick={() => {
+              setSignInClicked(true);
               signIn("google", {
                 redirect: false,
                 callbackUrl: "/dashboard",
