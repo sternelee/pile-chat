@@ -137,6 +137,9 @@ dependencies:
   '@vercel/og':
     specifier: ^0.5.20
     version: 0.5.20
+  axios:
+    specifier: ^1.6.5
+    version: 1.6.5
   class-variance-authority:
     specifier: ^0.7.0
     version: 0.7.0
@@ -5488,6 +5491,16 @@ packages:
       - debug
     dev: false
 
+  /axios@1.6.5:
+    resolution: {integrity: sha512-Ii012v05KEVuUoFWmMW/UQv9aRIc3ZwkWDcM+h5Il8izZCtRVpDUfwpoFf7eOtajT3QiGR4yDUx7lPqHJULgbg==}
+    dependencies:
+      follow-redirects: 1.15.4
+      form-data: 4.0.0
+      proxy-from-env: 1.1.0
+    transitivePeerDependencies:
+      - debug
+    dev: false
+
   /axobject-query@3.2.1:
     resolution: {integrity: sha512-jsyHu61e6N4Vbz/v18DHwWYKK0bSWLqn47eeDSKPB7m8tqMHF9YJ+mhIk2lVteyZrY8tnSj/jHOv4YiTCuCJgg==}
     dependencies:
@@ -10202,6 +10215,10 @@ packages:
       '@protobufjs/utf8': 1.1.0
       '@types/node': 20.10.8
       long: 5.2.3
+    dev: false
+
+  /proxy-from-env@1.1.0:
+    resolution: {integrity: sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==}
     dev: false
 
   /pump@3.0.0:
